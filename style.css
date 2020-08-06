@@ -92,6 +92,7 @@ body{
 .header li a{
   text-decoration:none;
   color: #3F5D45;
+  display: block;
 }
 .header li a:hover{
   text-decoration:underline;
@@ -101,14 +102,13 @@ body{
   padding: 5px;
 }
 .banner img{
-  max-width: 100%;
   margin-bottom:60px;
 }
 .main{
   display:flex;
   justify-content:space-between;
   flex-wrap: wrap;
-  margin-bottom:10px;
+  margin-bottom:40px;
 }
 .category{
   font-size: 24px;
@@ -136,13 +136,11 @@ body{
 }
 .products{
   width: 66%;
-  margin-bottom:30px;
 }
 .products ul{
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .products li{
   margin-bottom:20px;
@@ -200,7 +198,7 @@ body{
   background: #3F5D45;
 }
 .page{
-  margin-bottom:60px;
+  margin-top: 10px;
 }
 .page ul{
   display:flex;
@@ -301,10 +299,10 @@ body{
   max-width: 171px;
   margin-bottom: 115px;
 }
-.info-left ul {
+.info-message ul {
   margin-bottom: 30px;
 }
-.info-left li {
+.info-message li {
   font-size: 16px;
   line-height: 24px;
   color: #3F5D45;
@@ -321,7 +319,7 @@ body{
   width: 32px;
   height: 32px;
 }
-.info-right h2{
+.info-copyright h2{
   writing-mode: vertical-rl;
   font-size: 23px;
   font-weight: bold;
@@ -330,7 +328,7 @@ body{
   color: #3F5D45;
   float: right;
 }
-.info-right p {
+.info-copyright p {
   color: #3F5D45;
   clear: both;
 }
@@ -405,14 +403,13 @@ body{
 .footerLogo{
    margin-bottom: 40px;
 }
-.info-left ul{
+.info-message ul{
    margin-bottom: 37px;
-   width: 200%;
 }
 .footerLinks{
   margin-bottom: 23px;
 }
-.info-right h2{
+.info-copyright h2{
    display: none;
 }
 }
