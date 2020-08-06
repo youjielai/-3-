@@ -90,6 +90,7 @@ body{
   line-height: 22px;
 }
 .header li a{
+  display: block;
   text-decoration:none;
   color: #3F5D45;
   display: block;
